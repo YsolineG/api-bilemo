@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8040d44-c13d-4d1e-a481-c0eb3935a4c5" name="Default Changelist" comment="feat: create the database">
-      <change beforePath="$PROJECT_DIR$/.idea/api-bilemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api-bilemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="a8040d44-c13d-4d1e-a481-c0eb3935a4c5" name="Default Changelist" comment="feat: add description field in product table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +130,7 @@
       <workItem from="1647342672422" duration="2987000" />
       <workItem from="1647849704872" duration="8381000" />
       <workItem from="1647868791341" duration="4051000" />
-      <workItem from="1648451594484" duration="8469000" />
+      <workItem from="1648451594484" duration="9260000" />
     </task>
     <task id="LOCAL-00001" summary="chore: install doctrine">
       <created>1647850354173</created>
@@ -151,7 +146,42 @@
       <option name="project" value="LOCAL" />
       <updated>1648460044678</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chore: add sensio/framework-extra-bundle">
+      <created>1648460172441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648460172441</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: create product entity">
+      <created>1648460236018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648460236018</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: create customer entity">
+      <created>1648460271254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648460271254</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore: add sensio/framework-extra-bundle">
+      <created>1648460323290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648460323290</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add description field in product table">
+      <created>1648460361054</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648460361054</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +202,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: install doctrine" />
     <MESSAGE value="feat: create the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create the database" />
+    <MESSAGE value="feat: create product entity" />
+    <MESSAGE value="feat: create customer entity" />
+    <MESSAGE value="chore: add sensio/framework-extra-bundle" />
+    <MESSAGE value="feat: add description field in product table" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add description field in product table" />
   </component>
 </project>
