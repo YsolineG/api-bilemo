@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8040d44-c13d-4d1e-a481-c0eb3935a4c5" name="Default Changelist" comment="feat: add User entity">
+    <list default="true" id="a8040d44-c13d-4d1e-a481-c0eb3935a4c5" name="Default Changelist" comment="chore: add lexik/jwt-authentication-bundle package">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api-bilemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api-bilemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +109,10 @@
       <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/validator" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="26Q4qxiW3X2IFKMshWaquZh4aqo" />
@@ -116,6 +127,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../snow_tricks" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -129,7 +141,9 @@
       <workItem from="1647342672422" duration="2987000" />
       <workItem from="1647849704872" duration="8381000" />
       <workItem from="1647868791341" duration="4051000" />
-      <workItem from="1648451594484" duration="10643000" />
+      <workItem from="1648451594484" duration="16362000" />
+      <workItem from="1648539044304" duration="9470000" />
+      <workItem from="1649056884102" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="chore: install doctrine">
       <created>1647850354173</created>
@@ -187,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648460944974</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chore: add lexik/jwt-authentication-bundle package">
+      <created>1648462373668</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648462373668</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +234,7 @@
     <MESSAGE value="chore: add sensio/framework-extra-bundle" />
     <MESSAGE value="feat: add description field in product table" />
     <MESSAGE value="feat: add User entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add User entity" />
+    <MESSAGE value="chore: add lexik/jwt-authentication-bundle package" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add lexik/jwt-authentication-bundle package" />
   </component>
 </project>
