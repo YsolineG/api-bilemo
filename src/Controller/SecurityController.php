@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\User;
 use Doctrine\ORM\EntityManagerInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -25,6 +26,7 @@ class SecurityController extends AbstractController
     }
 
     #[Route('/api/register', name: 'api_register', methods: 'POST')]
+    #[IsGranted('ROLE_ADMIN')]
     public function register(UserPasswordHasherInterface $passwordHasher, EntityManagerInterface $em, Request $request, SerializerInterface $serializer): \Symfony\Component\HttpFoundation\JsonResponse
     {
         $json = $request->getContent();
