@@ -21,12 +21,12 @@ class SecurityController extends AbstractController
 
         return new Response([
             'username' => $user->getUsername(),
-            'roles' => $user->getRoles()
+            'roles' => $user->getRoles(),
+            'id' => $user->getId(),
         ]);
     }
 
     #[Route('/api/register', name: 'api_register', methods: 'POST')]
-    #[IsGranted('ROLE_ADMIN')]
     public function register(UserPasswordHasherInterface $passwordHasher, EntityManagerInterface $em, Request $request, SerializerInterface $serializer): \Symfony\Component\HttpFoundation\JsonResponse
     {
         $json = $request->getContent();
